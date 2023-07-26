@@ -1,0 +1,70 @@
+/* PAGINA DE DISEÑO WEB */
+
+.body-dw{
+    background-color: transparent;
+}
+
+.body-lp{
+    background-color: transparent;
+}
+
+.h-char{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.section-container-video{
+    position: relative;
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-container video{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    filter: brightness(.33);
+}
+
+/* TARJETAS */
+
+.characteristics{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+
+.card{
+    background: transparent;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-color: transparent;
+}
+
+.section-container-video h2 h3 p{
+    color: white;
+}
+
+.logo img{
+    width: 40%;
+    height: 40%;
+}
